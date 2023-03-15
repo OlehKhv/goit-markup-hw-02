@@ -1,2 +1,68 @@
+:root {
+  --main-color: #2e2f42;
+  --text-color: #434455;
+  --accent-color: #f4f4fd;
+  --main-bg-color: #ffffff;
+  --logo-color: #4d5ae5;
+}
+
 body {
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+}
+
+.link {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--logo-color);
+}
+
+.header-logo {
+  color: var(--main-color);
+}
+
+.mail,
+.tel {
+  color: var(--text-color);
+}
+
+.hero {
+  background-color: var(--main-color);
+}
+
+.hero-title {
+  color: var(--main-bg-color);
+}
+
+.hero-btn {
+  background-color: var(--logo-color);
+  color: var(--main-bg-color);
+}
+
+.section-title,
+.section-subtitle {
+  color: var(--main-color);
+}
+
+.cards {
+  background-color: var(--accent-color);
+}
+
+.cards-list-item {
+  background-color: var(--main-bg-color);
+}
+
+.footer {
+  background: var(--main-color);
+  color: var(--accent-color);
+}
+.footer-logo {
+  color: var(--accent-color);
 }
