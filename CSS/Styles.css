@@ -3,6 +3,7 @@
   --text-color: #434455;
   --accent-color: #f4f4fd;
   --main-bg-color: #ffffff;
+  --main-hero-color: #ffffff;
   --logo-color: #4d5ae5;
 }
 
@@ -28,6 +29,10 @@ body {
   color: var(--main-color);
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .mail,
 .tel {
   color: var(--text-color);
@@ -38,12 +43,12 @@ body {
 }
 
 .hero-title {
-  color: var(--main-bg-color);
+  color: var(--main-hero-color);
 }
 
 .hero-btn {
   background-color: var(--logo-color);
-  color: var(--main-bg-color);
+  color: var(--main-hero-color);
 }
 
 .section-title,
