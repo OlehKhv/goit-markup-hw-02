@@ -21,6 +21,24 @@ body {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.btn {
+  cursor: pointer;
+}
+
+/* Header */
 .logo {
   color: var(--logo-color);
 }
@@ -38,6 +56,7 @@ body {
   color: var(--text-color);
 }
 
+/* Main */
 .hero {
   background-color: var(--main-color);
 }
@@ -63,7 +82,18 @@ body {
 .cards-list-item {
   background-color: var(--main-bg-color);
 }
+/* Main Portfolio*/
+.btn-filter {
+  background-color: var(--accent-color);
+  color: var(--logo-color);
+}
 
+.btn-filter:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: var(--main-hero-color);
+}
+
+/* Footer */
 .footer {
   background: var(--main-color);
   color: var(--accent-color);
