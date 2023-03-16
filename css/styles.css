@@ -47,7 +47,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -66,8 +66,7 @@ body {
 }
 
 .header-link:is(:hover, :focus),
-.mail:is(:hover, :focus),
-.tel:is(:hover, :focus) {
+.contact-link:is(:hover, :focus) {
   color: var(--active-color, #404bbf);
 }
 
@@ -75,8 +74,7 @@ body {
   font-style: normal;
 }
 
-.mail,
-.tel {
+.contact-link {
   color: var(--text-color, #434455);
   font-size: 16px;
   line-height: 1.5;
