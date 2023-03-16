@@ -147,6 +147,11 @@ body {
   text-align: center;
 }
 /* Main Portfolio*/
+
+.link > p {
+  color: var(--text-color);
+}
+
 .btn-filter {
   background-color: var(--accent-color, #f4f4fd);
   color: var(--logo-color, #4d5ae5);
